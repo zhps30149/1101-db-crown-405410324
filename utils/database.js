@@ -8,13 +8,13 @@ const pool = new Pool({
     : 'postgresql://postgres:0000@localhost:5432/crown_24'
 });
 
-//const pool = new Pool({
-//    user: 'postgres',
-//    host: 'localhost',
-//    database: 'crown_24',
-//    password: '0000',
-//    port: '5432'
-//});
+/**const pool = new Pool({
+    user: 'postgres',
+    host: 'localhost',
+    database: 'crown_24',
+    password: '0000',
+    port: '5432'
+});**/
 
 pool.query('SELECT * FROM category_24', (err, res) => {
   console.log(JSON.stringify(res.rows));
