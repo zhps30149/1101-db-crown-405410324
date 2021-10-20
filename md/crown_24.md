@@ -160,3 +160,15 @@ pool.query('SELECT * FROM category_24', (err, res) => {
 
 module.exports = pool;
 ```
+
+---
+
+#6
+
+>Chrome 截圖
+![](https://i.imgur.com/fX8eDIb.jpg)
+
+>app.js
+![](https://i.imgur.com/u7IbV2F.png)
+
+
