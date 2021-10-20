@@ -1,6 +1,12 @@
+#0
+
+>我覺得這次學的速度算是蠻快的，也許是因為之前有學過一點的關係，能夠很快
+>吸收老師所教的。
+---
+
 #1
 
-![](https://i.imgur.com/QB3gi4e.png)
+![](https://i.imgur.com/SdbjQcy.png)
 
 **index.ejs**
 
@@ -30,7 +36,7 @@ router.get('/', function (req, res, next) {
 
 #2
 
-![](https://i.imgur.com/arhhbyT.jpg)
+![](https://i.imgur.com/n4zrE3C.jpg)
 
 **crown_24.ejs**
 
@@ -126,49 +132,86 @@ app.use('/users', usersRouter);
 
 #3
 
-![](https://i.imgur.com/NUfjw8X.png)
+![](https://i.imgur.com/PUdsusI.png)
 
 ---
 
 #4
 
-![](https://i.imgur.com/YGJ8wud.png)
+**Chrome 截圖**
+![](https://i.imgur.com/TPFlsFJ.jpg)
+
+[github repo url](https://github.com/zhps30149/1101-db-crown-405410324)
+
+**Heroku 畫面**
+![](https://i.imgur.com/FLtA4re.png)
 
 ---
 
 #5
 
-![](https://i.imgur.com/qL3Xa52.png)
+**DATABASE_URL:postgres://cushyzyimhdqpj:ff63412187b5ca992c6f6123a4bb69892f1e58cb649344af9d8c82dbe39c0ced@ec2-52-87-123-108.compute-1.amazonaws.com:5432/d5t0v8oincumq6**
+![](https://i.imgur.com/wnq2u2b.png)
 
-**database.js**
+**Heroku 畫面**
+![](https://i.imgur.com/r8kJzrz.png)
 
-```js
-const { Pool } = require('pg');
+**DATABASE_URL**
 
-const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'crown_24',
-  password: '0000',
-  port: '5432',
-});
-
-pool.query('SELECT * FROM category_24', (err, res) => {
-  console.log(JSON.stringify(res.rows));
-  pool.end();
-});
-
-module.exports = pool;
+```
+host: ec2-52-87-123-108.compute-1.amazonaws.com
+port: 5432
+database: d5t0v8oincumq6
+username: cushyzyimhdqpj
+password: ff63412187b5ca992c6f6123a4bb69892f1e58cb649344af9d8c82dbe39c0ced
 ```
 
 ---
 
 #6
 
->Chrome 截圖
+**Chrome 截圖**
 ![](https://i.imgur.com/fX8eDIb.jpg)
 
->app.js
+**app.js**
 ![](https://i.imgur.com/u7IbV2F.png)
 
+**routes/crown2_24.js**
+![](https://i.imgur.com/5NTRbxV.png)
 
+**views/crown2_24.ejs**
+![](https://i.imgur.com/Ef71eJt.png)
+
+---
+
+#7
+
+**Chrome 截圖**
+![](https://i.imgur.com/5M3ORPq.jpg)
+
+[github repo url](https://github.com/zhps30149/1101-db-crown-405410324)
+
+---
+
+#8
+
+**Chrome 截圖**
+![](https://i.imgur.com/W4qSDg4.png)
+
+**app.js**
+![](https://i.imgur.com/9IUKwCx.png)
+
+**api_24.js**
+![](https://i.imgur.com/ZfAzCbC.png)
+
+**apiCrownController_24.js**
+![](https://i.imgur.com/8XMmzn6.png)
+
+---
+
+#9
+
+**Chrome 截圖**
+![](https://i.imgur.com/2G4OVK2.png)
+
+[github repo url](https://github.com/zhps30149/1101-db-crown-405410324)
